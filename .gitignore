@@ -1,0 +1,31 @@
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Secrets & Environment Variables
+.env
+.env.*
+!.env.example
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Vector DB & Storage (Generated locally via seed_db.py)
+chroma_db/
+*.sqlite3
+
+# Audio Outputs & Temporary Test Artifacts
+*.mp3
+*.wav
+*.tmp
+
+# IDEs & OS Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
